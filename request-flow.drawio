@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T21:01:15.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="21.3.2" etag="_VDWohDMX9mKSUkTrVPM" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-23T21:05:20.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="iKm7rXWJIljbLvUl8mBM" version="21.3.2" type="github">
   <diagram name="Page-1" id="lwpgToof7YRmbsCDAfel">
-    <mxGraphModel>
+    <mxGraphModel dx="818" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4ygLPoHd_havDHCSVKhr-1" value="OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ygLPoHd_havDHCSVKhr-2" value="&lt;ul&gt;&lt;li&gt;Provides socket abstraction&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Creation, Binding, Listening, Accepting, Sending &amp;amp; Receiving&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Binds socket to endpoint and makes it available for incoming connections&lt;/li&gt;&lt;li&gt;The network stack routes packets to the correct process&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="270" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
