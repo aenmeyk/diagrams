@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T16:31:48.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jxwbtYlDbbmGRxVQpcXz" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T17:16:30.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Q2IYpnrP2OsbnIUOMuSU" version="24.6.4" type="github">
   <diagram name="Page-1" id="0ixSnLqTkGIwiDNCtMaO">
-    <mxGraphModel dx="1434" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1506" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,55 +26,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XeNOOer_eIZAZivH8xoa-12" value="Router" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="20" width="530" height="540" as="geometry">
+          <mxGeometry x="470" y="20" width="530" height="1030" as="geometry">
             <mxRectangle x="250" y="530" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-8" value="Forwarding Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
-          <mxGeometry x="30" y="130" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-13" value="Inbound Port" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
-          <mxGeometry x="30" y="40" width="120" height="30" as="geometry" />
+        <mxCell id="XeNOOer_eIZAZivH8xoa-13" value="Inbound Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="30" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XeNOOer_eIZAZivH8xoa-14" value="Out&lt;span style=&quot;background-color: initial;&quot;&gt;bound Port&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
-          <mxGeometry x="380" y="40" width="120" height="30" as="geometry" />
+          <mxGeometry x="380" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-13" target="XeNOOer_eIZAZivH8xoa-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-110" y="380" as="sourcePoint" />
-            <mxPoint x="-60" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-24" value="Find next&lt;div&gt;hop IP&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-21">
-          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-25" value="ARM Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
-          <mxGeometry x="30" y="220" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-8" target="XeNOOer_eIZAZivH8xoa-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="89.5" y="160" as="sourcePoint" />
-            <mxPoint x="120" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-27" value="Find MAC of&lt;div&gt;next hop&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-26">
-          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-28" value="Buffer Memory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
-          <mxGeometry x="205" y="40" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-30" value="MAC&lt;div&gt;found?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
-          <mxGeometry x="50" y="300" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-33" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-25" target="XeNOOer_eIZAZivH8xoa-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-430" y="420" as="sourcePoint" />
-            <mxPoint x="-330" y="420" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-28" value="Interface Input&lt;div&gt;Buffer Memory&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="205" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XeNOOer_eIZAZivH8xoa-38" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-13" target="XeNOOer_eIZAZivH8xoa-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -87,6 +50,106 @@
             <mxPoint x="360" y="100" as="sourcePoint" />
             <mxPoint x="380" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-8" value="Forwarding Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="205" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-42" target="XeNOOer_eIZAZivH8xoa-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="220" as="sourcePoint" />
+            <mxPoint x="115" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-24" value="Find next&lt;div&gt;hop using IP&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-21">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-25" value="ARM Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="205" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-8" target="XeNOOer_eIZAZivH8xoa-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264.5" y="300" as="sourcePoint" />
+            <mxPoint x="295" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-27" value="Find MAC of&lt;div&gt;next hop&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-26">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-30" value="MAC&lt;div&gt;found?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="225" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-33" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-25" target="XeNOOer_eIZAZivH8xoa-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-255" y="580" as="sourcePoint" />
+            <mxPoint x="-155" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-40" value="Yes&lt;div&gt;Send packet to&lt;/div&gt;&lt;div&gt;outbound port&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-34">
+          <mxGeometry x="0.1062" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-29" value="Send an ARP request to learn the MAC address" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="25" y="480" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-30" target="XeNOOer_eIZAZivH8xoa-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="340" as="sourcePoint" />
+            <mxPoint x="100" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-32" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-31">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-41" value="Forwarding Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="380" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-42" value="CPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="205" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XeNOOer_eIZAZivH8xoa-12" source="XeNOOer_eIZAZivH8xoa-28" target="XeNOOer_eIZAZivH8xoa-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="230" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-44" value="Examine Packet&lt;br&gt;Header for IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-43">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-46" value="Routing Table Example" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="25" y="590" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-47" value="&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Destination: 192.168.1.0/24&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Netmask: 255.255.255.0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Gateway: 10.0.0.1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Interface: eth0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Metric: 10&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Protocol: OSPF&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Last Update: 2024-07-08 12:30:00&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-46">
+          <mxGeometry x="10" y="25" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-49" value="Forwarding Table Example" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="25" y="770" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-50" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Destination: 192.168.1.0/24&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Next Hop: 10.0.0.1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Outgoing Interface: eth0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-49">
+          <mxGeometry x="10" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-51" value="ARP Table Example" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-12">
+          <mxGeometry x="25" y="880" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XeNOOer_eIZAZivH8xoa-52" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Destination: 192.168.1.0/24&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Next Hop: 10.0.0.1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Outgoing Interface: eth0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XeNOOer_eIZAZivH8xoa-51">
+          <mxGeometry x="10" y="30" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XeNOOer_eIZAZivH8xoa-15" value="Browser" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="20" width="200" height="200" as="geometry" />
@@ -111,36 +174,6 @@
         </mxCell>
         <mxCell id="XeNOOer_eIZAZivH8xoa-23" value="Sequence" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="415" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-29" value="Send an ARP request to learn the MAC address" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="330" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XeNOOer_eIZAZivH8xoa-30" target="XeNOOer_eIZAZivH8xoa-29">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="190" as="sourcePoint" />
-            <mxPoint x="570" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-32" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-31">
-          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="XeNOOer_eIZAZivH8xoa-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="370" as="sourcePoint" />
-            <mxPoint x="720" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-35" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-34">
-          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XeNOOer_eIZAZivH8xoa-36" value="Yes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XeNOOer_eIZAZivH8xoa-34">
-          <mxGeometry x="-0.1333" y="-7" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
