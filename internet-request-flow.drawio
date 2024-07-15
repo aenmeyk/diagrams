@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T18:38:33.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Z_ubI_rudTsXsaX-x0a5" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T19:00:01.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_ahVYpDOISEdbrrOePD6" version="24.6.5" type="github">
   <diagram name="Page-1" id="0ixSnLqTkGIwiDNCtMaO">
-    <mxGraphModel dx="1810" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3425" dy="2432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -354,7 +354,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-33" value="ARP Request" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="1100" width="970" height="1650" as="geometry" />
+          <mxGeometry x="-660" y="1530" width="2220" height="1750" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-33" source="DSvxa6pq-x6Ugc2J_eAa-26" target="DSvxa6pq-x6Ugc2J_eAa-32">
           <mxGeometry relative="1" as="geometry">
@@ -403,24 +403,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-40" value="Client OS (host)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-33">
-          <mxGeometry x="150" y="650" width="700" height="980" as="geometry" />
+          <mxGeometry x="150" y="650" width="1730" height="1050" as="geometry" />
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-41" value="Kernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
-          <mxGeometry x="-5" y="40" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-42" value="Receive&lt;div&gt;packet&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" target="DSvxa6pq-x6Ugc2J_eAa-41">
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-42" value="Request&lt;div&gt;Data&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" target="DSvxa6pq-x6Ugc2J_eAa-41" source="DSvxa6pq-x6Ugc2J_eAa-69">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-105" y="60" as="sourcePoint" />
-            <mxPoint x="-25" y="59.57999999999993" as="targetPoint" />
+            <mxPoint x="170" y="100" as="sourcePoint" />
+            <mxPoint x="250" y="59.57999999999993" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-43" value="ARP Table&lt;div&gt;(RAM)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
-          <mxGeometry x="26" y="150" width="120" height="40" as="geometry" />
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-68" value="Operating System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
+          <mxGeometry x="230" y="40" width="755" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" target="DSvxa6pq-x6Ugc2J_eAa-43" source="DSvxa6pq-x6Ugc2J_eAa-41">
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-41" value="Network Stack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
+          <mxGeometry x="15" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-43" value="ARP Table&lt;div&gt;(RAM)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
+          <mxGeometry x="46" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-44" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-68" target="DSvxa6pq-x6Ugc2J_eAa-43" source="DSvxa6pq-x6Ugc2J_eAa-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="40" as="sourcePoint" />
-            <mxPoint x="260" y="290" as="targetPoint" />
+            <mxPoint x="340" y="40" as="sourcePoint" />
+            <mxPoint x="280" y="290" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -429,33 +432,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-46" value="MAC&lt;div&gt;found?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
-          <mxGeometry x="46" y="240" width="80" height="80" as="geometry" />
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-46" value="MAC&lt;div&gt;found?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
+          <mxGeometry x="66" y="240" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" source="DSvxa6pq-x6Ugc2J_eAa-43" target="DSvxa6pq-x6Ugc2J_eAa-46">
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-68" source="DSvxa6pq-x6Ugc2J_eAa-43" target="DSvxa6pq-x6Ugc2J_eAa-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-444" y="520" as="sourcePoint" />
-            <mxPoint x="-344" y="520" as="targetPoint" />
+            <mxPoint x="-424" y="520" as="sourcePoint" />
+            <mxPoint x="-324" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" source="DSvxa6pq-x6Ugc2J_eAa-46">
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-68" source="DSvxa6pq-x6Ugc2J_eAa-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-89" y="280" as="sourcePoint" />
-            <mxPoint x="86" y="380" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-50" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-49">
-          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
-            <mxPoint x="4" y="-43" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" source="DSvxa6pq-x6Ugc2J_eAa-46">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="116" y="200" as="sourcePoint" />
-            <mxPoint x="226" y="80" as="targetPoint" />
+            <mxPoint x="136" y="200" as="sourcePoint" />
+            <mxPoint x="246" y="80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="226" y="280" />
+              <mxPoint x="246" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -469,17 +460,63 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-56" value="ARP Table Entry" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
-          <mxGeometry x="20" y="500" width="230" height="90" as="geometry" />
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-56" value="ARP Table Entry" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
+          <mxGeometry x="40" y="500" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-57" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Destination: 192.168.1.0/24&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Next Hop: 10.0.0.1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Outgoing Interface: eth0&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-56">
           <mxGeometry x="10" y="30" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-58" value="ARP Request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
-          <mxGeometry x="20" y="610" width="670" height="319" as="geometry" />
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-58" value="ARP Request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
+          <mxGeometry x="40" y="610" width="670" height="319" as="geometry" />
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-59" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Ethernet Header:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+--------------------+-------------------+--------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Destination MAC&amp;nbsp; &amp;nbsp; | Source MAC&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | EtherType&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| FF:FF:FF:FF:FF:FF&amp;nbsp; |&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;00:11:22:33:44:55 |&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;0x0806&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;|&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;(Broadcast Address)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+--------------------+-------------------+--------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;ARP Header:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+-------------------+-------------------+--------------------+--------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Hardware Type&amp;nbsp; &amp;nbsp; &amp;nbsp;| Protocol Type&amp;nbsp; &amp;nbsp; &amp;nbsp;| Hardware Address L | Protocol Address L |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 0x0800&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | 6&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | 4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+-------------------+-------------------+--------------------+-------------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Operation&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| Sender Hardware Address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | Sender Protocol Address |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| 1 (ARP Request)&amp;nbsp; &amp;nbsp;| 00:11:22:33:44:55&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | 192.168.1.10&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+-------------------+-------------------+--------------------+-------------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Target Hardware Address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| Target Protocol Address |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| 00:00:00:00:00:00&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 192.168.1.20&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+---------------------------------------+-------------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-58">
-          <mxGeometry x="10" y="19" width="660" height="300" as="geometry" />
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-59" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Ethernet Header:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+--------------------+-------------------+--------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Destination MAC&amp;nbsp; &amp;nbsp; | Source MAC&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | Type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| FF:FF:FF:FF:FF:FF&amp;nbsp; |&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;00:11:22:33:44:55 |&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;0x0806&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;|&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;(Broadcast Address)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;(ARP)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+--------------------+-------------------+--------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;ARP Header:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+-------------------+-------------------+--------------------+--------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Hardware Type&amp;nbsp; &amp;nbsp; &amp;nbsp;| Protocol Type&amp;nbsp; &amp;nbsp; &amp;nbsp;| Hardware Address L | Protocol Address L |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| 1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 0x0800&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | 6&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | 4&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+-------------------+-------------------+--------------------+-------------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Operation&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| Sender MAC Address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| Sender IP Address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| 1 (ARP Request)&amp;nbsp; &amp;nbsp;| 00:11:22:33:44:55&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | 192.168.1.10&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+-------------------+-------------------+--------------------+-------------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| Target MAC Address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; | Target IP Address&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;| 00:00:00:00:00:00&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| 192.168.1.20&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+---------------------------------------+-------------------------+&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-58">
+          <mxGeometry x="10" y="27" width="660" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-69" value="Application&lt;div&gt;(e.g. browser)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
+          <mxGeometry x="25" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-63" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-33" source="DSvxa6pq-x6Ugc2J_eAa-60" target="DSvxa6pq-x6Ugc2J_eAa-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="290" as="sourcePoint" />
+            <mxPoint x="1010" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=-0.017;entryY=0.509;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-33" source="DSvxa6pq-x6Ugc2J_eAa-62" target="DSvxa6pq-x6Ugc2J_eAa-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1267" y="570" as="sourcePoint" />
+            <mxPoint x="1364" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1294" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-65" value="no&lt;div&gt;Broadcast ARP&amp;nbsp;&lt;/div&gt;&lt;div&gt;request&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-64">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-60" value="Each node&lt;div&gt;on local network&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-33">
+          <mxGeometry x="1054" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-66" value="Drop request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-33">
+          <mxGeometry x="1364" y="550" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-33" target="DSvxa6pq-x6Ugc2J_eAa-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="410" as="sourcePoint" />
+            <mxPoint x="1000" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-50" value="no&lt;div&gt;Broadcast ARP&amp;nbsp;&lt;/div&gt;&lt;div&gt;request&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-49">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-62" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Node MAC&lt;/font&gt;&amp;nbsp;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;matches&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;request&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;?&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-33">
+          <mxGeometry x="1244" y="420" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
