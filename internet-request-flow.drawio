@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T19:07:14.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="J-Fe4k5yrYjFIFE_0J-B" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T20:45:04.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qLksTlriRUAOf5R0csbb" version="24.6.5" type="github">
   <diagram name="Page-1" id="0ixSnLqTkGIwiDNCtMaO">
-    <mxGraphModel dx="2306" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="1741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,7 +403,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-40" value="Client OS (host)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-33">
-          <mxGeometry x="150" y="650" width="1730" height="1050" as="geometry" />
+          <mxGeometry x="150" y="650" width="1490" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-42" value="Request&lt;div&gt;Data&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" target="DSvxa6pq-x6Ugc2J_eAa-41" source="DSvxa6pq-x6Ugc2J_eAa-69">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -441,23 +441,18 @@
             <mxPoint x="-324" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-68" source="DSvxa6pq-x6Ugc2J_eAa-46">
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-68" source="DSvxa6pq-x6Ugc2J_eAa-46" target="DSvxa6pq-x6Ugc2J_eAa-77">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="136" y="200" as="sourcePoint" />
-            <mxPoint x="246" y="80" as="targetPoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="246" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-52" value="&lt;div&gt;Encapsulate&lt;/div&gt;&lt;div&gt;packet into new&lt;/div&gt;&lt;div&gt;Ethernet frame&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-51">
-          <mxGeometry x="-0.4905" y="-1" relative="1" as="geometry">
-            <mxPoint x="24" y="-61" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-53" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-51">
           <mxGeometry x="-0.7651" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="30" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-56" value="ARP Table Entry" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
@@ -475,14 +470,54 @@
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-71" value="NIC Driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
           <mxGeometry x="660" y="40" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-74" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-68" source="DSvxa6pq-x6Ugc2J_eAa-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="460" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="106" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-75" value="&lt;div&gt;Encapsulate&lt;/div&gt;&lt;div&gt;packet into new&lt;/div&gt;&lt;div&gt;Ethernet frame&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-74">
+          <mxGeometry x="-0.4905" y="-1" relative="1" as="geometry">
+            <mxPoint x="41" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-76" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-74">
+          <mxGeometry x="-0.7651" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-77" value="Proceed with regular request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-68">
+          <mxGeometry x="230" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-69" value="Application&lt;div&gt;(e.g. browser)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
           <mxGeometry x="25" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-70" value="NIC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-40">
-          <mxGeometry x="1120" y="40" width="200" height="200" as="geometry" />
+          <mxGeometry x="1120" y="40" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-72" value="Transmission Buffer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-70">
           <mxGeometry x="-10" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-80" value="Output&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Interface&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DSvxa6pq-x6Ugc2J_eAa-70">
+          <mxGeometry x="190" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-81" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-70" source="DSvxa6pq-x6Ugc2J_eAa-72" target="DSvxa6pq-x6Ugc2J_eAa-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49.629999999999995" y="100" as="sourcePoint" />
+            <mxPoint x="49.629999999999995" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="140" />
+              <mxPoint x="250" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DSvxa6pq-x6Ugc2J_eAa-82" value="Encapsulate packet&lt;div&gt;into frame&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DSvxa6pq-x6Ugc2J_eAa-81">
+          <mxGeometry x="-0.1644" y="-1" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DSvxa6pq-x6Ugc2J_eAa-73" value="Packet" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DSvxa6pq-x6Ugc2J_eAa-40" source="DSvxa6pq-x6Ugc2J_eAa-71" target="DSvxa6pq-x6Ugc2J_eAa-72">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
