@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T18:02:56.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="U-qkb6Bmf9ZjetbREjus" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T18:59:11.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MpHx0NXBCBHTR4R27aum" version="24.7.1" type="github">
   <diagram name="Page-1" id="0ixSnLqTkGIwiDNCtMaO">
-    <mxGraphModel dx="2309" dy="2419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2093" dy="2224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -816,7 +816,7 @@
           <mxGeometry x="-530" y="4040" width="1940" height="1420" as="geometry" />
         </mxCell>
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-1" value="Browser Process" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="krVlk3XAIqsjSzDvF0kb-59">
-          <mxGeometry x="350" y="38" width="530" height="312" as="geometry" />
+          <mxGeometry x="449" y="38" width="540" height="312" as="geometry" />
         </mxCell>
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LCdY70Zhmq5wUaZBxVaq-1" source="LCdY70Zhmq5wUaZBxVaq-30" target="LCdY70Zhmq5wUaZBxVaq-31">
           <mxGeometry relative="1" as="geometry" />
@@ -832,7 +832,21 @@
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-31" value="network::mojom::URLLoaderFactory" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LCdY70Zhmq5wUaZBxVaq-1">
           <mxGeometry x="330" y="50" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LCdY70Zhmq5wUaZBxVaq-2" value="Render Process" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="krVlk3XAIqsjSzDvF0kb-59">
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LCdY70Zhmq5wUaZBxVaq-1" source="LCdY70Zhmq5wUaZBxVaq-42" target="LCdY70Zhmq5wUaZBxVaq-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-50" value="forward&lt;div&gt;request&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LCdY70Zhmq5wUaZBxVaq-48">
+          <mxGeometry x="-0.2158" y="-1" relative="1" as="geometry">
+            <mxPoint x="12" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-42" value="RenderProcessHost" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LCdY70Zhmq5wUaZBxVaq-1">
+          <mxGeometry x="20" y="182" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-47" value="ResourceDispatcherHost" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LCdY70Zhmq5wUaZBxVaq-1">
+          <mxGeometry x="330" y="182" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-2" value="Render Process (Blink)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="krVlk3XAIqsjSzDvF0kb-59">
           <mxGeometry x="30" y="38" width="300" height="542" as="geometry" />
         </mxCell>
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LCdY70Zhmq5wUaZBxVaq-2" source="krVlk3XAIqsjSzDvF0kb-61" target="LCdY70Zhmq5wUaZBxVaq-39">
@@ -850,7 +864,7 @@
           <mxGeometry x="36" y="182" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-3" value="Network Service Process" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="krVlk3XAIqsjSzDvF0kb-59">
-          <mxGeometry x="1090" y="38" width="660" height="880" as="geometry" />
+          <mxGeometry x="1149" y="38" width="660" height="880" as="geometry" />
         </mxCell>
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LCdY70Zhmq5wUaZBxVaq-3" source="LCdY70Zhmq5wUaZBxVaq-4" target="LCdY70Zhmq5wUaZBxVaq-5">
           <mxGeometry relative="1" as="geometry" />
@@ -927,8 +941,16 @@
         <mxCell id="LCdY70Zhmq5wUaZBxVaq-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="krVlk3XAIqsjSzDvF0kb-59" source="LCdY70Zhmq5wUaZBxVaq-31" target="LCdY70Zhmq5wUaZBxVaq-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LCdY70Zhmq5wUaZBxVaq-33" value="start over Mojo IPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LCdY70Zhmq5wUaZBxVaq-32">
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-33" value="start over&lt;div&gt;Mojo IPC&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LCdY70Zhmq5wUaZBxVaq-32">
           <mxGeometry x="0.0286" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="krVlk3XAIqsjSzDvF0kb-59" source="LCdY70Zhmq5wUaZBxVaq-39" target="LCdY70Zhmq5wUaZBxVaq-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCdY70Zhmq5wUaZBxVaq-44" value="sent over&lt;div&gt;Mojo IPC&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LCdY70Zhmq5wUaZBxVaq-43">
+          <mxGeometry x="0.102" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
